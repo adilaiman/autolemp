@@ -19,6 +19,6 @@ sudo mysql_secure_installation
 sudo apt install php-fpm php-mysql
 
 # config files
-sudo less nginxconfig > /etc/nginx/default
+sudo less nginxconfig > /etc/nginx/sites-available/default
 
 echo "All done :)."
